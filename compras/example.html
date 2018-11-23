@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista de Compras</title>
+    <script src="react.development.js"></script>
+    <script src="react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+
+class Item extends React.Component {
+  render() {
+    return <li>
+            <button id={"prod" + this.props.index} onClick={ (e) => this.props.remove(this.props.index) }>remover</button> 
+             {this.props.produto} - {this.props.quantidade}
+           </li>;
+  }
+}
+
+class CriarListaDeCompras extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { items: [] };
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.removeItem = this.removeItem.bind(this);
+        this.createList = this.createList.bind(this);
+    }
+
+    handleInputChange(event) {
+        const target = event.target;
+        const name = target.name;
+
+        this.setState({
+        [name]: target.value
+        });
+    }
+
+    createList() {
+        this.props.update("listar", this.state.items);
+    }
+
+    removeItem(index) {
+        this.state.items.splice(index, 1);
+        this.setState({
+            items: this.state.items
+        });
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        this.state.items.push({ produto : this.state.produto, quantidade : this.state.quantidade});
+        this.setState({
+            items: this.state.items
+        });
+        
+        this.setState({
+            produto : "",
+            quantidade : ""
+        });
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>Criar uma lista de compras</h1>
+                <form onSubmit={this.handleSubmit}>
+                    <label>
+                        Produto: 
+                    <input type="text" name="produto" required value={this.state.produto} onChange={this.handleInputChange}/>
+                    </label>
+                    <br/>
+                    <label>
+                        Quantidade:
+                    <input type="number" name="quantidade" pattern="[0-9]*" required value={this.state.quantidade} onChange={this.handleInputChange} />
+                    </label>
+                    <br />
+                    <input type="submit" value="Adicionar" />
+                </form>
+                <div>
+                    <h2>Lista</h2>
+                    <ul>{this.state.items.map( (item, index) => <Item index={index} produto={item.produto} quantidade={item.quantidade} remove={this.removeItem} /> )}</ul>
+                    {
+                        this.state.items.length > 0 && <button onClick={this.createList}>Gerar a lista de compras</button>
+                    }
+                </div>
+            </div>
+        );
+    }
+}
+
+class ListarLista extends React.Component {
+    constructor(props) {
+        super(props);
+        this.startEmptyList = this.startEmptyList.bind(this);
+    }
+
+    startEmptyList() {
+        this.props.update("criar");
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>Lista de compras</h1>
+                <h2>{this.props.items.length} itens a comprar</h2>
+                <ol>
+                    {this.props.items.map( 
+                        (i) => 
+                            <li><input type="checkbox" id={i.produto+":"+i.quantidade} />{i.produto} -- {i.quantidade}</li>
+                    )}
+                </ol>
+                <br/>
+                <br/>
+                <button onClick={this.startEmptyList}>Nova Lista</button>
+            </div>
+        );
+    }
+}
+
+class ListaDeComprasApp extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { page: "criar" };
+    }
+
+    updateScreen = (toPage, data) => {
+        this.setState({
+            page : toPage,
+            data : data
+        });
+    };
+
+    render() {
+        if(this.state.page == "criar")
+            return <CriarListaDeCompras update={this.updateScreen} />;
+        else
+            return <ListarLista items={this.state.data} update={this.updateScreen}/>;
+    }
+}
+
+
+ReactDOM.render(
+    <ListaDeComprasApp />,
+    document.getElementById('root')
+);
+    </script>
+</body>
+
+</html>
