@@ -1,60 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Calcular Imposto</title>
-<script>
-function limpar() {
-	document.getElementsByName("nome")[0].value = '';
-	document.getElementsByName("idade")[0].value = '';
-	document.getElementsByName("sexo")[0].selectedIndex = 0;
-	document.getElementsByName("salario")[0].value = '';
-	return false;
-}
 
-function calcular() {
-	//recuperar valores dos campos
-	var nome = document.getElementsByName("nome")[0].value;
-	var idade = document.getElementsByName("idade")[0].value;
-	var e = document.getElementsByName("sexo")[0];
-	var sexo = e.options[e.selectedIndex].value;
-	var salario = document.getElementsByName("salario")[0].value;
-		
-	document.getElementById("divNome").innerText = "Nome: " + nome;
-	document.getElementById("divIdade").innerText = "Idade: " + idade;
-	document.getElementById("divSexo").innerText = "Sexo: " + sexo;
-	
-	var valor = "";
-	if(salario > 5000)
-		valor = salario * 0.25;
-	else
-		valor = salario * 0.15;
-		
-	document.getElementById("divValorImposto").innerText = "Valor a pagar de imposto: " + valor;
-	
-	return false;
-}
-</script>
+<head>
+	<title>Andre Takeshi Endo - github page</title>
 </head>
+
 <body>
-<h1>Cálculo do imposto</h1>
-<form action="#">
-Nome: <input name="nome" type="text"> <br/>
-Idade: <input name="idade" type="text"> <br/>
-Sexo: 
-<select name="sexo">
-  <option value="-">-</option>
-  <option value="F">feminino</option>
-  <option value="M">masculino</option>
-</select>
-<br/>
-Salário: <input name="salario" type="text"> <br/>
-<input type="button" onclick="limpar();" value="Limpar campos" />
-<input type="button" onclick="calcular();" value="Calcular" />
-</form>
-<br/>
-<div id="divNome"></div><br/>
-<div id="divIdade"></div><br/>
-<div id="divSexo"></div><br/>
-<div id="divValorImposto"></div><br/>
+	<h1>Andre Takeshi Endo - github page</h1>
+	<br />
+	For now, go to <a href="https://sites.google.com/site/andreendo/">link</a>
 </body>
+
 </html>
