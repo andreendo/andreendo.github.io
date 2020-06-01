@@ -50,21 +50,90 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-justified">
-        <h1 class="mt-5">Research (ToDo)</h1>
-        <ul>
-          <li>NodeRacer</li>
-          <li>MoLeWe</li>
-          <li>x-PATeSCO</li>
-          <li>Extrema</li>
-          <li>Prof.Mapp</li>
-          <li>FourMA</li>
-          <li>FSM-based testing (JStateModelTester)</li>
-          <li>Model-based testing of service-oriented applications (concluded)</li>
-        </ul>
+        <h1 class="mt-5">Research</h1>
+        <div class="text-justified">
+          <b>NodeRacer:</b> this tool helps to detect event races in Node.js applications. It employs dynamic analysis,
+          happens-before relation, and a guided execution with selective postponing to exercise different callback
+          interleavings and reveal race bugs. NodeRacer helped us to uncover previously unknown bugs and flaky tests in
+          very popular Node.js applications and libraries. <br />
+          <i>Main publications:</i> <a
+            href="https://cs.au.dk/~amoeller/papers/noderacer/paper.pdf">&lt;ICST-2020&gt;</a> <a
+            href="https://github.com/andreendo/noderacer">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>MoLeWe:</b> this tool aims to leverage model-based testing (MBT) for web tests. The tool works in 3 steps:
+          (i) infer models from Selenium- Page object-based web tests; (ii) extending the test suite with new tests at
+          model level; and (iii) generating new test cases from the extended model. Apart from benefits of an MBT
+          approach, the tool reduces the effort to include new tests, can help to increase test coverage, while
+          leveraging the existing test suite. <br />
+          <i>Main publications:</i> <a href="#">&lt;paper&gt;</a> <a
+            href="https://github.com/guimattiello/MoLeWe">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>x-PATeSCO:</b> this tool is a cross-platform app test script recorder. Built on top of the Appium
+          framework, x-PATeSCO supports the recording and generation of test scripts for cross-platform mobile apps
+          (developed in frameworks like ReactNative, Xamarin, and Apache Cordova). We have investigated different XPath
+          expressions so that automated tests can be run robustly in different platforms like Android and iOS. x-PATeSCO
+          has also been extended to amplify the tests by adding known faulty patterns. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1049/iet-sen.2018.5445">&lt;IETSW-2019&gt;</a> <a
+            href="http://dx.doi.org/10.18293/SEKE2019-076">&lt;SEKE-2019&gt;</a> <a
+            href="https://github.com/andremenegassi/x-PATeSCO">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>Prof.Mapp:</b> this tool analyzes the source code of mobile Android apps and collects several pieces of
+          information. In particular, Prof.Mapp looks at the presence of automated tests, adopted frameworks, external
+          connectivity, graphical user interface (GUI) elements, sensors, and different system configurations. With this
+          tool, we conducted an empirical study with a sample of 663 open source mobile apps. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.infsof.2018.05.006">&lt;IST-2018&gt;</a> <a
+            href="https://github.com/davibernardos/ProfMapp">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>FourMA:</b> this tool supports the adoption of model-based testing (MBT) in Android apps. By using test
+          models, FourMA can be used to reduce the effort for concretization, and test other characteristics of apps,
+          such as device-specific events, unpredictable users' interaction, telephony events for GSM/SMS, and sensors
+          and hardware events. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1145/3131151.3131160">&lt;SBES-2017&gt;</a> <a
+            href="https://github.com/andreendo/FourMA">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>CP4SE <i>(concluded)</i></b> in this project (lead by <a
+            href="http://each.uspnet.usp.br/marceloeler/">Marcelo Eler</a>), we developed a tool that produces a profile
+          of Java programs from the perpective of symbolic execution for software testing. With this tool, we analyzed
+          147 open source Java projects and compared four dimensions impacting symbolic execution: path explosion,
+          constraint complexity, dependency, and exception-dependent paths. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.jss.2016.03.020">&lt;JSS-2016&gt;</a> <a
+            href="https://github.com/marceloeler/CP4SE">&lt;source code&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>JStateModelTester:</b> in this project, we have developed and implemented Finite State Machine (FSM)-based
+          methods that generate complete test suites. We have also conducted experimental studies that compare existing
+          methods, from different perspectives like test suite characteristics, cost, and effectiveness. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.infsof.2013.01.001">&lt;IST-2013&gt;</a> <a
+            href="http://dx.doi.org/10.1007/s11219-014-9242-6">&lt;SQJ-2015&gt;</a>
+        </div>
+        <br />
+        <div class="text-justified">
+          <b>Model-based testing of service-oriented applications <i>(concluded)</i>:</b> we investigated and proposed
+          model-based testing (MBT) approaches for service-oriented applications. In particular, we worked with Finite
+          State Machines (FSMs) and Event Sequence Graphs (ESGs) to design test models and algorithms were introduced to
+          generate test cases. This project was concluded with my PhD defense. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1109/SCC.2011.77">&lt;SCC-2011&gt;</a> <a
+            href="http://dx.doi.org/10.1002/spe.2161">&lt;SP&E-2014&gt;</a> <a
+            href="http://dx.doi.org/10.1145/2539150.2539188">&lt;iiWAS-2013&gt;</a> <a
+            href="http://dx.doi.org/10.1002/stvr.1637">&lt;STVR-2019&gt;</a> <a
+            href="https://teses.usp.br/teses/disponiveis/55/55134/tde-20062013-140259/en.php">&lt;PhD
+            dissertation&gt;</a>
+        </div>
       </div>
     </div>
   </div>
-
+  <br />
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
