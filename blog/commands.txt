@@ -1,0 +1,5 @@
+>> bundler exec jekyll serve
+
+To generate the site
+
+>> jekyll build 
