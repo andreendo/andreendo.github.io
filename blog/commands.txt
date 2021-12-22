@@ -3,3 +3,6 @@
 To generate the site
 
 >> jekyll build 
+
+
+>> rsync -a _site/ /home/sanji/git/andreendo.github.io/blog
