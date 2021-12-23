@@ -1,5 +1,8 @@
 >> bundler exec jekyll serve
 
+Avoid activate analytics
+>> JEKYLL_ENV=production jekyll build
+
 To generate the site
 
 >> jekyll build 

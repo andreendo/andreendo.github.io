@@ -1,11 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    jekyll-analytics (0.1.14)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  jekyll-analytics
 
 BUNDLED WITH
    2.3.1
