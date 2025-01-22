@@ -1,0 +1,69 @@
+Web services composition testing: a strategy based on structural testing of parallel programs
+Jabutiservice: A web service for structural testing of java programs
+Formal testing approaches for service-oriented architectures and web services: a systematic review.
+A performance evaluation study for web services attachments
+Event-and coverage-based testing of web services
+Model-based testing of service-oriented applications via state models
+Model-based testing of web service compositions
+A systematic review on formal testing approaches for web services
+Experimental comparison of test case generation methods for finite state machines
+An Experimental Study on Test Suite Characteristics, Cost, and Effectiveness of FSM-based Testing Methods
+Using models to test web service-oriented applications: an experience report
+Towards Incremental FSM-based Testing of Software Product Lines
+A holistic approach to model‐based testing of Web service compositions
+Towards Envisaging Software Testing in a Pervasive Computing World
+Evaluating Test Suite Characteristics, Cost, and Effectiveness of FSM-based Testing Methods
+Generation of checking sequences using identification sets
+Model-Based Testing of RESTful Web Services Using UML Protocol State Machines
+Model based testing of service oriented applications
+An industrial experience on using models to test Web service-oriented applications
+Fault domain-based testing in imperfect situations: a heuristic approach and case studies
+Teaching software project management by using Lego Mindstorm robot
+Mechanisms to support automated testing of mobile applications
+Quantifying the characteristics of Java programs that may influence symbolic execution from a test data generation perspective
+Covering User-Defined Data-flow Test Requirements Using Symbolic Execution
+Evaluating the model-based testing approach in the context of mobile applications
+Analyzing Exceptions in the Context of Test Data Generation Based on Symbolic Execution.
+An empirical study to quantify the characteristics of Java programs that may influence symbolic execution from a unit testing perspective
+A comparative study of algorithms for generating switch cover test sets
+An analysis of automated tests for mobile Android applications
+An evaluation of automated tests for hybrid mobile applications
+On how characteristics that hinder test data generation using symbolic execution combine: An analysis of the SF100 benchmark
+Reducing the Concretization Effort in FSM-Based Testing of Software Product Lines
+Event tree algorithms to generate test sequences for composite Web services
+Reuse of model-based tests in mobile apps
+On the costs of applying logic-based criteria to mobile applications: An empirical analysis of predicates in real-world Objective-C and Swift applications
+Characterizing mobile apps from a source and test code viewpoint
+Please please me: does the presence of test cases influence mobile app users' satisfaction?
+Evaluating the Impact of Different Testers on Model-based Testing
+Automated Tests for Mobile Games: an Experience Report
+Machine Learning Applied to Software Testing: A Systematic Mapping Study
+Analyzing graph-based algorithms employed to generate test cases from finite state machines
+Guest editorial foreword for the special issue on automated software testing [Editorial]: trends and evidence
+Amplifying Tests for Cross-Platform Apps through Test Patterns
+Automated Tests for Cross-Platform Mobile Apps in Multiple Configurations
+On the Exploratory Testing of Mobile Apps
+NodeRacer: Event Race Detection for Node.js Applications
+Comparing Graph-Based Algorithms to Generate Test Cases from Finite State Machines
+Using App Attributes to Improve Mobile Device Selection for Compatibility Testing
+On the Relation between Code Elements and Accessibility Issues in Android Apps
+What is the Vocabulary of Flaky Tests? An Extended Replication
+Evaluating Random Input Generation Strategies for Accessibility Testing
+On the use of test smells for prediction of flaky tests
+Model-based testing leveraged for automated web tests
+Exploratory testing of apps with opportunity maps
+A mapping study on mutation testing for mobile applications
+Accessibility Mutation Testing of Android Applications
+An Empirical Analysis of Two Mutation Testing Tools for Java
+A multivocal literature mapping on mobile compatibility testing
+Characterizing Security-Related Commits of JavaScript Engines
+Mock objects: a case study in industry✱
+Can a Chatbot Support Exploratory Software Testing? Preliminary Results
+Prioritizing Test Cases with Markov Chains: A Preliminary Investigation
+Prime Control-IQD: a Platform for Software Quality Analytics
+Ticket to Ride: A Journey Through the Most In-Demand Soft Skills for QA Professionals in Brazil
+Exploratory testing strategies for video games: an experience report
+Exploratory testing for platform video games: strategies and lessons learned
+Can a Chatbot Support Exploratory Software Testing? Preliminary Results
+The Most In-Demand Soft Skills for QA Professionals in Brazil
+Performance regression testing initiatives: a systematic mapping
