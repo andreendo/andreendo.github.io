@@ -43,7 +43,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="services.html">Services</a>
-          </li>           
+          </li>
         </ul>
       </div>
     </div>
@@ -55,24 +55,41 @@
       <div class="col-lg-12 text-justified">
         <h1 class="mt-5">Research</h1>
         <div class="text-justified">
-          <b>NodeRacer:</b> this tool helps to detect event races in Node.js applications. It employs dynamic analysis,
+          <b>Event Race Detection:</b> This project involves the development of techniques to detect event races, a specialized kind of race that occurs due to the non-deterministic scheduling of callbacks in single-threaded asynchronous systems. The first initiative is called <u>NodeRacer</u> and helps to detect event races in Node.js applications. It employs dynamic analysis,
           happens-before relation, and a guided execution with selective postponing to exercise different callback
-          interleavings and reveal race bugs. NodeRacer helped us to uncover previously unknown bugs and flaky tests in
+          interleavings and reveal race bugs. 
+          The following initiative is <u>NACD</u>, a tool that injects delay around the asynchronous functions of the Node.js built-in modules. To do so, NACD contains a JSON model that defines where in the core API the delays should be injected, and implements a runtime system that, at runtime and on demand, injects the delays.  
+          Both tools helped us to uncover previously unknown bugs and flaky tests in
           very popular Node.js applications and libraries. <br />
-          <i>Main publications:</i> <a
+          <i>NodeRacer main publications:</i> <a
             href="https://cs.au.dk/~amoeller/papers/noderacer/paper.pdf">&lt;ICST-2020&gt;</a> <a
             href="https://github.com/andreendo/noderacer">&lt;source code&gt;</a> <a
-            href="https://www.youtube.com/watch?v=pAxW0x7erls">&lt;video&gt;</a>
+            href="https://www.youtube.com/watch?v=pAxW0x7erls">&lt;video&gt;</a> <br />
+          <i>NACD main publications:</i> <a
+            href="https://doi.org/10.4230/LIPIcs.ECOOP.2025.9">&lt;ECOOP-2025&gt;</a> <a
+            href="https://github.com/andreendo/nacd">&lt;source code&gt;</a> <a
+            href="https://www.youtube.com/watch?v=wUX8De8HMPI">&lt;video&gt;</a>
         </div>
         <br />
         <div class="text-justified">
-          <b>Video Game Testing:</b> This project intends to propose new approaches and tools for video game testing, taking into account independent game developers and indie studios. This project assumes that play-testing is an inherently human task, and as such, better engineering support may be provided. We have investigated how existing approaches for traditional software can be leveraged to test video games, while specific aspects like fun factor, unique UI, and user experience are evaluated. <br />
-          <i>Main publications:</i> <a href="http://dx.doi.org/10.1109/sbgames.2018.00015">&lt;SBGames 2018&gt;</a> <a href="http://dx.doi.org/10.1145/3631085.3631227">&lt;SBGames 2023&gt;</a> <a href="http://dx.doi.org/10.5753/jis.2024.4156">&lt;JIS 2024&gt;</a>
+          <b>Video Game Testing:</b> This project intends to propose new approaches and tools for video game testing,
+          taking into account independent game developers and indie studios. This project assumes that play-testing is
+          an inherently human task, and as such, better engineering support may be provided. We have investigated how
+          existing approaches for traditional software can be leveraged to test video games, while specific aspects like
+          fun factor, unique UI, and user experience are evaluated. <br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1109/sbgames.2018.00015">&lt;SBGames 2018&gt;</a> <a
+            href="http://dx.doi.org/10.5753/jis.2024.4156">&lt;JIS 2024&gt;</a> <a
+            href="http://dx.doi.org/10.1109/GAS66647.2025.00009">&lt;GAS 2025&gt;</a>
         </div>
         <br />
         <div class="text-justified">
-          <b>Exploratory Tests:</b> In this project, we aim to improve the practical use of exploratory testing - a widely adopted technique for manual testing. To do so, this project intends to conduct empirical studies and proposed interventions (tools) to make this technique more effective. In particular, we have developed supporting artefacts and prototype tools for exploratory testing of mobile apps.<br />
-          <i>Main publications:</i> <a href="http://dx.doi.org/10.1145/3356317.3356322">&lt;SAST-2019&gt;</a> <a href="https://dl.acm.org/doi/10.1145/3493244.3493248">&lt;SBQS-2021&gt;</a> <a href="http://dx.doi.org/10.5220/0012572400003690">&lt;ICEIS-2024&gt;</a>
+          <b>Exploratory Tests:</b> In this project, we aim to improve the practical use of exploratory testing - a
+          widely adopted technique for manual testing. To do so, this project intends to conduct empirical studies and
+          proposed interventions (tools) to make this technique more effective. In particular, we have developed
+          supporting artefacts and prototype tools for exploratory testing of mobile apps.<br />
+          <i>Main publications:</i> <a href="http://dx.doi.org/10.1145/3356317.3356322">&lt;SAST-2019&gt;</a> <a
+            href="https://dl.acm.org/doi/10.1145/3493244.3493248">&lt;SBQS-2021&gt;</a> <a
+            href="http://dx.doi.org/10.5220/0012572400003690">&lt;ICEIS-2024&gt;</a>
         </div>
         <br />
         <div class="text-justified">
@@ -81,9 +98,10 @@
           model level; and (iii) generating new test cases from the extended model. Apart from benefits of an MBT
           approach, the tool reduces the effort to include new tests, can help to increase test coverage, while
           leveraging the existing test suite. <br />
-          <i>Main publications:</i> <a href="https://link.springer.com/article/10.1007/s11219-021-09575-w">&lt;SQJO-2022&gt;</a> <a
+          <i>Main publications:</i> <a
+            href="https://link.springer.com/article/10.1007/s11219-021-09575-w">&lt;SQJO-2022&gt;</a> <a
             href="https://github.com/guimattiello/MoLeWe">&lt;source code&gt;</a>
-        </div>                
+        </div>
         <br />
         <div class="text-justified">
           <b>JStateModelTester:</b> in this project, we have developed and implemented Finite State Machine (FSM)-based
@@ -92,39 +110,57 @@
           <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.infsof.2013.01.001">&lt;IST-2013&gt;</a> <a
             href="http://dx.doi.org/10.1007/s11219-014-9242-6">&lt;SQJ-2015&gt;</a> <a
             href="http://dx.doi.org/10.1007/s10836-019-05844-6">&lt;JETTA-2020&gt;</a>
-        </div>                
-        <br />
-        <div class="text-justified">
-          <b>x-PATeSCO:</b> this tool is a cross-platform app test script recorder. Built on top of the Appium
-          framework, x-PATeSCO supports the recording and generation of test scripts for cross-platform mobile apps
-          (developed in frameworks like ReactNative, Xamarin, and Apache Cordova). We have investigated different XPath
-          expressions so that automated tests can be run robustly in different platforms like Android and iOS. x-PATeSCO
-          has also been extended to amplify the tests by exploring known faulty patterns. <br />
-          <i>Main publications:</i> <a href="http://dx.doi.org/10.1049/iet-sen.2018.5445">&lt;IETSW-2019&gt;</a> <a
-            href="http://dx.doi.org/10.18293/SEKE2019-076">&lt;SEKE-2019&gt;</a> <a
-            href="https://github.com/andremenegassi/x-PATeSCO">&lt;source code&gt;</a>
         </div>
         <br />
         <div class="text-justified">
-          <b>FourMA:</b> this tool supports the adoption of model-based testing (MBT) in Android apps. By using test
-          models, FourMA can be used to reduce the effort for concretization, and test other characteristics of apps,
-          such as device-specific events, unpredictable users' interaction, telephony events for GSM/SMS, and sensors
-          and hardware events. <br />
-          <i>Main publications:</i> <a href="http://dx.doi.org/10.1145/3131151.3131160">&lt;SBES-2017&gt;</a> <a
-            href="https://github.com/andreendo/FourMA">&lt;source code&gt;</a>
+          <b>Automated Tests for Mobile Apps <i>(concluded)</i>:</b> in this project, we investigated different
+          approaches to automate tests for mobile applications. The main initiatives are presented next: <br />
+          <ul>
+            <li>
+              <div class="text-justified">
+                <b>x-PATeSCO:</b> this tool is a cross-platform app test script recorder. Built on top of the Appium
+                framework, x-PATeSCO supports the recording and generation of test scripts for cross-platform mobile
+                apps
+                (developed in frameworks like ReactNative, Xamarin, and Apache Cordova). We have investigated different
+                XPath
+                expressions so that automated tests can be run robustly in different platforms like Android and iOS.
+                x-PATeSCO
+                has also been extended to amplify the tests by exploring known faulty patterns. <br />
+                <i>Main publications:</i> <a href="http://dx.doi.org/10.1049/iet-sen.2018.5445">&lt;IETSW-2019&gt;</a>
+                <a href="http://dx.doi.org/10.18293/SEKE2019-076">&lt;SEKE-2019&gt;</a> <a
+                  href="https://github.com/andremenegassi/x-PATeSCO">&lt;source code&gt;</a>
+              </div>
+            </li>
+            <li>
+              <div class="text-justified">
+                <b>FourMA:</b> this tool supports the adoption of model-based testing (MBT) in Android apps. By using
+                test
+                models, FourMA can be used to reduce the effort for concretization, and test other characteristics of
+                apps,
+                such as device-specific events, unpredictable users' interaction, telephony events for GSM/SMS, and
+                sensors
+                and hardware events. <br />
+                <i>Main publications:</i> <a href="http://dx.doi.org/10.1145/3131151.3131160">&lt;SBES-2017&gt;</a> <a
+                  href="https://github.com/andreendo/FourMA">&lt;source code&gt;</a>
+              </div>
+            </li>
+            <li>
+              <div class="text-justified">
+                <b>Prof.Mapp:</b> this tool analyzes the source code of mobile Android apps and collects several pieces
+                of
+                information. In particular, Prof.Mapp looks at the presence of automated tests, adopted frameworks,
+                external
+                connectivity, graphical user interface (GUI) elements, sensors, and different system configurations.
+                With this
+                tool, we conducted an empirical study with a sample of 663 open source mobile apps. <br />
+                <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.infsof.2018.05.006">&lt;IST-2018&gt;</a>
+                <a href="https://github.com/davibernardos/ProfMapp">&lt;source code&gt;</a>
+              </div>
+            </li>
+          </ul>
         </div>
-        <br />        
         <div class="text-justified">
-          <b>Prof.Mapp:</b> this tool analyzes the source code of mobile Android apps and collects several pieces of
-          information. In particular, Prof.Mapp looks at the presence of automated tests, adopted frameworks, external
-          connectivity, graphical user interface (GUI) elements, sensors, and different system configurations. With this
-          tool, we conducted an empirical study with a sample of 663 open source mobile apps. <br />
-          <i>Main publications:</i> <a href="http://dx.doi.org/10.1016/j.infsof.2018.05.006">&lt;IST-2018&gt;</a> <a
-            href="https://github.com/davibernardos/ProfMapp">&lt;source code&gt;</a>
-        </div>
-        <br />        
-        <div class="text-justified">
-          <b>CP4SE <i>(concluded)</i></b> in this project (lead by <a
+          <b>CP4SE <i>(concluded)</i>:</b> in this project (lead by <a
             href="http://each.uspnet.usp.br/marceloeler/">Marcelo Eler</a>), we developed a tool that produces a profile
           of Java programs from the perpective of symbolic execution for software testing. With this tool, we analyzed
           147 open source Java projects and compared four dimensions impacting symbolic execution: path explosion,
@@ -139,7 +175,7 @@
           State Machines (FSMs) and Event Sequence Graphs (ESGs) to design test models and algorithms were introduced to
           generate test cases. This project was concluded with my PhD defense. <br />
           <i>Main publications:</i> <a href="http://dx.doi.org/10.1109/SCC.2011.77">&lt;SCC-2011&gt;</a> <a
-          href="http://dx.doi.org/10.1145/2539150.2539188">&lt;iiWAS-2013&gt;</a> <a
+            href="http://dx.doi.org/10.1145/2539150.2539188">&lt;iiWAS-2013&gt;</a> <a
             href="http://dx.doi.org/10.1002/spe.2161">&lt;SP&E-2014&gt;</a> <a
             href="http://dx.doi.org/10.1002/stvr.1637">&lt;STVR-2019&gt;</a> <a
             href="https://teses.usp.br/teses/disponiveis/55/55134/tde-20062013-140259/en.php">&lt;PhD
