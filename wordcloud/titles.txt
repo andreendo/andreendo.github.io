@@ -43,7 +43,7 @@ Guest editorial foreword for the special issue on automated software testing [Ed
 Amplifying Tests for Cross-Platform Apps through Test Patterns
 Automated Tests for Cross-Platform Mobile Apps in Multiple Configurations
 On the Exploratory Testing of Mobile Apps
-NodeRacer: Event Race Detection for Node.js Applications
+NodeRacer: Event Race Detection for Nodejs Applications
 Comparing Graph-Based Algorithms to Generate Test Cases from Finite State Machines
 Using App Attributes to Improve Mobile Device Selection for Compatibility Testing
 On the Relation between Code Elements and Accessibility Issues in Android Apps
@@ -57,7 +57,7 @@ Accessibility Mutation Testing of Android Applications
 An Empirical Analysis of Two Mutation Testing Tools for Java
 A multivocal literature mapping on mobile compatibility testing
 Characterizing Security-Related Commits of JavaScript Engines
-Mock objects: a case study in industry✱
+Mock objects: a case study in industry
 Can a Chatbot Support Exploratory Software Testing? Preliminary Results
 Prioritizing Test Cases with Markov Chains: A Preliminary Investigation
 Prime Control-IQD: a Platform for Software Quality Analytics
@@ -67,3 +67,8 @@ Exploratory testing for platform video games: strategies and lessons learned
 Can a Chatbot Support Exploratory Software Testing? Preliminary Results
 The Most In-Demand Soft Skills for QA Professionals in Brazil
 Performance regression testing initiatives: a systematic mapping
+Property-based Testing for Machine Learning Models
+Using Historical Information for Fuzzing JavaScript Engines
+Event Race Detection for Nodejs Using Delay Injections
+Towards a framework for exploratory testing in video games
+Jstargetfuzzer: A History-Based Fuzzing Approach for Javascript Engines
