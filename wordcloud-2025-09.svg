@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:white"></rect>
+<text transform="translate(102,230)" font-size="199" style="fill:rgb(41, 123, 142)">test</text>
+<text transform="translate(13,358)" font-size="167" style="fill:rgb(64, 189, 114)">testing</text>
+<text transform="translate(18,70)" font-size="91" style="fill:rgb(68, 2, 86)">based testing</text>
+<text transform="translate(796,365) rotate(-90)" font-size="88" style="fill:rgb(59, 81, 139)">mobile</text>
+<text transform="translate(160,108)" font-size="46" style="fill:rgb(168, 219, 52)">applications</text>
+<text transform="translate(22,398)" font-size="44" style="fill:rgb(72, 193, 110)">web service</text>
+<text transform="translate(15,180)" font-size="40" style="fill:rgb(62, 76, 138)">Using</text>
+<text transform="translate(492,261)" font-size="38" style="fill:rgb(71, 47, 125)">Software</text>
+<text transform="translate(528,175)" font-size="38" style="fill:rgb(50, 182, 122)">App</text>
+<text transform="translate(83,261)" font-size="38" style="fill:rgb(46, 111, 142)">Model based</text>
+<text transform="translate(607,149)" font-size="34" style="fill:rgb(122, 209, 81)">study</text>
+<text transform="translate(548,204)" font-size="34" style="fill:rgb(34, 168, 132)">case</text>
+<text transform="translate(374,396)" font-size="34" style="fill:rgb(62, 73, 137)">automated</text>
+<text transform="translate(558,114)" font-size="29" style="fill:rgb(68, 1, 84)">Exploratory</text>
+<text transform="translate(571,229)" font-size="27" style="fill:rgb(173, 220, 48)">generation</text>
+<text transform="translate(37,18)" font-size="22" style="fill:rgb(72, 27, 109)">characteristics</text>
+<text transform="translate(220,344) rotate(-90)" font-size="22" style="fill:rgb(60, 80, 139)">service oriented</text>
+<text transform="translate(490,85)" font-size="17" style="fill:rgb(38, 173, 129)">symbolic execution</text>
+<text transform="translate(47,221)" font-size="15" style="fill:rgb(200, 224, 32)">programs</text>
+<text transform="translate(724,172)" font-size="15" style="fill:rgb(60, 79, 138)">Java</text>
+<text transform="translate(6,132)" font-size="15" style="fill:rgb(72, 36, 117)">systematic</text>
+<text transform="translate(27,91)" font-size="15" style="fill:rgb(56, 88, 140)">Event</text>
+<text transform="translate(734,349) rotate(-90)" font-size="15" style="fill:rgb(61, 188, 116)">Model</text>
+<text transform="translate(410,315)" font-size="15" style="fill:rgb(71, 47, 125)">FSM</text>
+<text transform="translate(612,172)" font-size="15" style="fill:rgb(36, 170, 131)">approach</text>
+<text transform="translate(705,378)" font-size="15" style="fill:rgb(60, 79, 138)">Evaluating</text>
+<text transform="translate(45,144)" font-size="15" style="fill:rgb(51, 99, 141)">data</text>
+<text transform="translate(298,201)" font-size="15" style="fill:rgb(192, 223, 37)">algorithms</text>
+<text transform="translate(377,297)" font-size="15" style="fill:rgb(72, 36, 117)">analysis</text>
+<text transform="translate(66,106)" font-size="15" style="fill:rgb(244, 230, 30)">mapping</text>
+<text transform="translate(42,207)" font-size="15" style="fill:rgb(42, 118, 142)">Platform</text>
+<text transform="translate(284,372)" font-size="15" style="fill:rgb(68, 58, 131)">state machines</text>
+<text transform="translate(408,11)" font-size="13" style="fill:rgb(47, 107, 142)">composition</text>
+<text transform="translate(61,299)" font-size="13" style="fill:rgb(234, 229, 26)">Methods</text>
+<text transform="translate(200,194) rotate(-90)" font-size="13" style="fill:rgb(42, 118, 142)">Cost</text>
+<text transform="translate(388,331)" font-size="13" style="fill:rgb(41, 175, 127)">Towards</text>
+<text transform="translate(632,186)" font-size="13" style="fill:rgb(49, 104, 142)">Support</text>
+<text transform="translate(695,18)" font-size="13" style="fill:rgb(160, 218, 57)">influence</text>
+<text transform="translate(401,161)" font-size="13" style="fill:rgb(72, 20, 103)">empirical</text>
+<text transform="translate(152,371)" font-size="13" style="fill:rgb(40, 125, 142)">Android</text>
+<text transform="translate(724,35)" font-size="13" style="fill:rgb(139, 214, 70)">generate</text>
+<text transform="translate(644,199)" font-size="13" style="fill:rgb(47, 180, 124)">Accessibility</text>
+<text transform="translate(362,248)" font-size="13" style="fill:rgb(139, 214, 70)">strategies</text>
+<text transform="translate(14,239)" font-size="13" style="fill:rgb(31, 148, 140)">Mutation</text>
+<text transform="translate(708,393)" font-size="13" style="fill:rgb(205, 225, 29)">Preliminary</text>
+<text transform="translate(385,264)" font-size="13" style="fill:rgb(37, 131, 142)">finite state</text>
+<text transform="translate(14,390) rotate(-90)" font-size="13" style="fill:rgb(192, 223, 37)">experience report</text>
+<text transform="translate(489,286) rotate(-90)" font-size="13" style="fill:rgb(56, 89, 140)">JavaScript Engines</text>
+<text transform="translate(607,11)" font-size="13" style="fill:rgb(46, 111, 142)">video games</text>
+<text transform="translate(36,190)" font-size="11" style="fill:rgb(69, 4, 87)">structural</text>
+<text transform="translate(439,375)" font-size="11" style="fill:rgb(226, 228, 24)">Formal</text>
+<text transform="translate(285,47)" font-size="11" style="fill:rgb(236, 229, 27)">approaches</text>
+<text transform="translate(736,147)" font-size="11" style="fill:rgb(66, 63, 133)">review</text>
+<text transform="translate(580,379) rotate(-90)" font-size="11" style="fill:rgb(59, 187, 117)">performance</text>
+<text transform="translate(15,114)" font-size="11" style="fill:rgb(223, 227, 24)">evaluation</text>
+<text transform="translate(308,117)" font-size="11" style="fill:rgb(69, 53, 129)">Experimental</text>
+<text transform="translate(183,81)" font-size="11" style="fill:rgb(59, 81, 139)">Suite</text>
+<text transform="translate(73,89)" font-size="11" style="fill:rgb(38, 130, 142)">Effectiveness</text>
+<text transform="translate(67,331)" font-size="11" style="fill:rgb(46, 109, 142)">Product</text>
+<text transform="translate(257,297)" font-size="11" style="fill:rgb(35, 136, 142)">Lines</text>
+<text transform="translate(684,333)" font-size="11" style="fill:rgb(200, 224, 32)">World</text>
+<text transform="translate(697,259)" font-size="11" style="fill:rgb(33, 143, 141)">sequences</text>
+<text transform="translate(377,311)" font-size="11" style="fill:rgb(58, 84, 140)">sets</text>
+<text transform="translate(536,106)" font-size="11" style="fill:rgb(122, 209, 81)">may</text>
+<text transform="translate(313,357) rotate(-90)" font-size="11" style="fill:rgb(68, 58, 131)">perspective</text>
+<text transform="translate(323,127)" font-size="11" style="fill:rgb(39, 127, 142)">context</text>
+<text transform="translate(292,11)" font-size="11" style="fill:rgb(69, 5, 89)">Analyzing</text>
+<text transform="translate(387,116)" font-size="11" style="fill:rgb(251, 231, 35)">Characterizing</text>
+<text transform="translate(607,391) rotate(-90)" font-size="11" style="fill:rgb(205, 225, 29)">code</text>
+<text transform="translate(146,330)" font-size="11" style="fill:rgb(58, 84, 140)">Please</text>
+<text transform="translate(63,318)" font-size="11" style="fill:rgb(101, 203, 94)">Machine</text>
+<text transform="translate(13,87) rotate(-90)" font-size="11" style="fill:rgb(32, 164, 134)">Learning</text>
+<text transform="translate(405,341)" font-size="11" style="fill:rgb(48, 106, 142)">graph</text>
+<text transform="translate(604,238)" font-size="11" style="fill:rgb(32, 147, 140)">editorial</text>
+<text transform="translate(492,273)" font-size="11" style="fill:rgb(41, 123, 142)">issue</text>
+<text transform="translate(2,146)" font-size="11" style="fill:rgb(63, 71, 136)">Cross</text>
+<text transform="translate(163,185)" font-size="11" style="fill:rgb(51, 99, 141)">Race</text>
+<text transform="translate(303,55)" font-size="11" style="fill:rgb(31, 162, 135)">Detection</text>
+<text transform="translate(328,357) rotate(-90)" font-size="11" style="fill:rgb(45, 112, 142)">Nodejs</text>
+<text transform="translate(702,156)" font-size="11" style="fill:rgb(39, 127, 142)">Compatibility</text>
+<text transform="translate(234,331)" font-size="11" style="fill:rgb(61, 78, 138)">Flaky</text>
+<text transform="translate(584,212)" font-size="11" style="fill:rgb(165, 219, 54)">Chatbot</text>
+<text transform="translate(474,336)" font-size="11" style="fill:rgb(144, 215, 67)">Results</text>
+<text transform="translate(284,38)" font-size="11" style="fill:rgb(72, 193, 110)">Demand</text>
+<text transform="translate(719,53)" font-size="11" style="fill:rgb(58, 83, 139)">Soft</text>
+<text transform="translate(439,58)" font-size="11" style="fill:rgb(45, 113, 142)">Skills</text>
+<text transform="translate(211,368)" font-size="11" style="fill:rgb(53, 95, 141)">QA</text>
+<text transform="translate(89,79)" font-size="11" style="fill:rgb(72, 31, 112)">Professionals</text>
+<text transform="translate(505,370)" font-size="11" style="fill:rgb(32, 164, 134)">Brazil</text>
+<text transform="translate(747,44)" font-size="11" style="fill:rgb(58, 83, 139)">Fuzzing</text>
+<text transform="translate(604,330)" font-size="8" style="fill:rgb(127, 211, 78)">web</text>
+<text transform="translate(433,168)" font-size="8" style="fill:rgb(64, 69, 136)">strategy</text>
+<text transform="translate(501,319) rotate(-90)" font-size="8" style="fill:rgb(223, 227, 24)">parallel</text>
+<text transform="translate(681,239)" font-size="8" style="fill:rgb(71, 45, 123)">Jabutiservice</text>
+<text transform="translate(564,18)" font-size="8" style="fill:rgb(47, 108, 142)">architectures</text>
+<text transform="translate(96,371)" font-size="8" style="fill:rgb(49, 104, 142)">attachments</text>
+<text transform="translate(95,148)" font-size="8" style="fill:rgb(52, 96, 141)">coverage</text>
+<text transform="translate(552,349)" font-size="8" style="fill:rgb(40, 125, 142)">via</text>
+<text transform="translate(288,77)" font-size="8" style="fill:rgb(189, 223, 38)">comparison</text>
+<text transform="translate(310,392)" font-size="8" style="fill:rgb(49, 104, 142)">experience</text>
+<text transform="translate(551,147)" font-size="8" style="fill:rgb(56, 89, 140)">Incremental</text>
+<text transform="translate(703,318) rotate(-90)" font-size="8" style="fill:rgb(70, 8, 92)">holistic</text>
+<text transform="translate(75,342)" font-size="8" style="fill:rgb(152, 216, 62)">Envisaging</text>
+<text transform="translate(206,128)" font-size="8" style="fill:rgb(45, 112, 142)">Pervasive</text>
+<text transform="translate(538,49)" font-size="8" style="fill:rgb(31, 150, 139)">Computing</text>
+<text transform="translate(160,144)" font-size="8" style="fill:rgb(32, 163, 134)">checking</text>
+<text transform="translate(229,117)" font-size="8" style="fill:rgb(149, 216, 64)">identification</text>
+<text transform="translate(100,360)" font-size="8" style="fill:rgb(101, 203, 94)">RESTful</text>
+<text transform="translate(665,376)" font-size="8" style="fill:rgb(129, 211, 77)">UML</text>
+<text transform="translate(266,161)" font-size="8" style="fill:rgb(34, 139, 141)">Protocol</text>
+<text transform="translate(294,24)" font-size="8" style="fill:rgb(160, 218, 57)">industrial</text>
+<text transform="translate(330,158)" font-size="8" style="fill:rgb(80, 196, 106)">Fault</text>
+<text transform="translate(767,19)" font-size="8" style="fill:rgb(39, 127, 142)">domain</text>
+<text transform="translate(639,156)" font-size="8" style="fill:rgb(50, 100, 142)">imperfect</text>
+<text transform="translate(312,64)" font-size="8" style="fill:rgb(229, 228, 25)">situations</text>
+<text transform="translate(3,220)" font-size="8" style="fill:rgb(248, 230, 33)">heuristic</text>
+<text transform="translate(202,278) rotate(-90)" font-size="8" style="fill:rgb(67, 61, 132)">studies</text>
+<text transform="translate(318,380)" font-size="8" style="fill:rgb(67, 62, 133)">Teaching</text>
+<text transform="translate(89,228)" font-size="8" style="fill:rgb(72, 193, 110)">project</text>
+<text transform="translate(73,306)" font-size="8" style="fill:rgb(61, 188, 116)">management</text>
+<text transform="translate(724,285)" font-size="8" style="fill:rgb(59, 82, 139)">Lego</text>
+<text transform="translate(405,78)" font-size="8" style="fill:rgb(157, 217, 59)">Mindstorm</text>
+<text transform="translate(683,248)" font-size="8" style="fill:rgb(208, 225, 28)">robot</text>
+<text transform="translate(11,102)" font-size="8" style="fill:rgb(41, 123, 142)">Mechanisms</text>
+<text transform="translate(706,209)" font-size="8" style="fill:rgb(70, 52, 128)">Quantifying</text>
+<text transform="translate(516,315) rotate(-90)" font-size="8" style="fill:rgb(72, 38, 119)">Covering</text>
+<text transform="translate(442,224)" font-size="8" style="fill:rgb(31, 162, 135)">User</text>
+<text transform="translate(617,395) rotate(-90)" font-size="8" style="fill:rgb(70, 52, 128)">Defined</text>
+<text transform="translate(16,259)" font-size="8" style="fill:rgb(55, 90, 140)">flow</text>
+<text transform="translate(630,206)" font-size="8" style="fill:rgb(115, 208, 86)">Requirements</text>
+<text transform="translate(16,367)" font-size="8" style="fill:rgb(70, 50, 126)">Exceptions</text>
+<text transform="translate(329,182)" font-size="8" style="fill:rgb(68, 59, 132)">quantify</text>
+<text transform="translate(747,119)" font-size="8" style="fill:rgb(186, 222, 40)">unit</text>
+<text transform="translate(621,121)" font-size="8" style="fill:rgb(216, 226, 25)">comparative</text>
+<text transform="translate(538,38)" font-size="8" style="fill:rgb(40, 124, 142)">generating</text>
+<text transform="translate(594,158)" font-size="8" style="fill:rgb(61, 78, 138)">switch</text>
+<text transform="translate(264,201)" font-size="8" style="fill:rgb(210, 226, 27)">cover</text>
+<text transform="translate(567,129)" font-size="8" style="fill:rgb(55, 90, 140)">hybrid</text>
+<text transform="translate(163,339)" font-size="8" style="fill:rgb(42, 119, 142)">hinder</text>
+<text transform="translate(3,199)" font-size="8" style="fill:rgb(60, 80, 139)">combine</text>
+<text transform="translate(490,40)" font-size="8" style="fill:rgb(44, 115, 142)">SF100</text>
+<text transform="translate(368,208)" font-size="8" style="fill:rgb(129, 211, 77)">benchmark</text>
+<text transform="translate(441,145)" font-size="8" style="fill:rgb(66, 64, 134)">Reducing</text>
+<text transform="translate(728,8)" font-size="8" style="fill:rgb(69, 55, 129)">Concretization</text>
+<text transform="translate(436,18)" font-size="8" style="fill:rgb(41, 175, 127)">Effort</text>
+<text transform="translate(525,190)" font-size="8" style="fill:rgb(52, 182, 121)">tree</text>
+<text transform="translate(258,187)" font-size="8" style="fill:rgb(33, 166, 133)">composite</text>
+<text transform="translate(469,211) rotate(-90)" font-size="8" style="fill:rgb(71, 46, 124)">Reuse</text>
+<text transform="translate(750,103)" font-size="8" style="fill:rgb(64, 69, 136)">applying</text>
+<text transform="translate(231,233)" font-size="8" style="fill:rgb(99, 203, 95)">logic</text>
+<text transform="translate(686,127)" font-size="8" style="fill:rgb(44, 115, 142)">criteria</text>
+<text transform="translate(623,92)" font-size="8" style="fill:rgb(33, 144, 141)">predicates</text>
+<text transform="translate(302,295) rotate(-90)" font-size="8" style="fill:rgb(44, 177, 126)">real</text>
+<text transform="translate(94,117)" font-size="8" style="fill:rgb(234, 229, 26)">Objective</text>
+<text transform="translate(764,197)" font-size="8" style="fill:rgb(69, 56, 130)">C</text>
+<text transform="translate(375,45)" font-size="8" style="fill:rgb(229, 228, 25)">Swift</text>
+<text transform="translate(494,12)" font-size="8" style="fill:rgb(56, 185, 119)">source</text>
+<text transform="translate(31,332) rotate(-90)" font-size="8" style="fill:rgb(70, 52, 128)">viewpoint</text>
+<text transform="translate(592,270)" font-size="8" style="fill:rgb(67, 61, 132)">presence</text>
+<text transform="translate(404,275)" font-size="8" style="fill:rgb(71, 46, 124)">users'</text>
+<text transform="translate(663,340)" font-size="8" style="fill:rgb(30, 155, 138)">satisfaction</text>
+<text transform="translate(692,165)" font-size="8" style="fill:rgb(170, 220, 50)">Impact</text>
+<text transform="translate(160,159)" font-size="8" style="fill:rgb(57, 86, 140)">Different</text>
+<text transform="translate(435,364)" font-size="8" style="fill:rgb(184, 222, 41)">Testers</text>
+<text transform="translate(675,264)" font-size="8" style="fill:rgb(72, 24, 106)">games</text>
+<text transform="translate(546,58)" font-size="8" style="fill:rgb(57, 86, 140)">Applied</text>
+<text transform="translate(688,185)" font-size="8" style="fill:rgb(71, 44, 122)">employed</text>
+<text transform="translate(664,305) rotate(-90)" font-size="8" style="fill:rgb(72, 29, 111)">Guest</text>
+<text transform="translate(705,297)" font-size="8" style="fill:rgb(31, 151, 139)">foreword</text>
+<text transform="translate(164,206)" font-size="8" style="fill:rgb(52, 96, 141)">special</text>
+<text transform="translate(448,183)" font-size="8" style="fill:rgb(34, 139, 141)">trends</text>
+<text transform="translate(144,301)" font-size="8" style="fill:rgb(31, 161, 136)">evidence</text>
+<text transform="translate(229,200) rotate(-90)" font-size="8" style="fill:rgb(66, 65, 134)">Amplifying</text>
+<text transform="translate(318,134)" font-size="8" style="fill:rgb(56, 88, 140)">Patterns</text>
+<text transform="translate(738,92) rotate(-90)" font-size="8" style="fill:rgb(70, 48, 126)">Multiple</text>
+<text transform="translate(339,355) rotate(-90)" font-size="8" style="fill:rgb(67, 61, 132)">Configurations</text>
+<text transform="translate(538,211)" font-size="8" style="fill:rgb(37, 171, 130)">NodeRacer</text>
+<text transform="translate(3,247)" font-size="8" style="fill:rgb(142, 214, 69)">Comparing</text>
+<text transform="translate(564,398) rotate(-90)" font-size="8" style="fill:rgb(39, 126, 142)">Attributes</text>
+<text transform="translate(107,235)" font-size="8" style="fill:rgb(64, 70, 136)">Improve</text>
+<text transform="translate(567,393)" font-size="8" style="fill:rgb(67, 61, 132)">Device</text>
+<text transform="translate(480,343)" font-size="8" style="fill:rgb(129, 211, 77)">Selection</text>
+<text transform="translate(43,349) rotate(-90)" font-size="8" style="fill:rgb(71, 19, 101)">Relation</text>
+<text transform="translate(449,78)" font-size="8" style="fill:rgb(205, 225, 29)">Elements</text>
+<text transform="translate(374,329) rotate(-90)" font-size="8" style="fill:rgb(62, 74, 137)">Vocabulary</text>
+<text transform="translate(569,339) rotate(-90)" font-size="8" style="fill:rgb(137, 213, 72)">Extended</text>
+<text transform="translate(342,261) rotate(-90)" font-size="8" style="fill:rgb(40, 174, 128)">Replication</text>
+<text transform="translate(237,12)" font-size="8" style="fill:rgb(132, 212, 75)">Random</text>
+<text transform="translate(762,207)" font-size="8" style="fill:rgb(49, 104, 142)">Input</text>
+<text transform="translate(119,205)" font-size="8" style="fill:rgb(71, 47, 125)">use</text>
+<text transform="translate(100,394)" font-size="8" style="fill:rgb(69, 4, 87)">smells</text>
+<text transform="translate(132,71) rotate(-90)" font-size="8" style="fill:rgb(194, 223, 35)">prediction</text>
+<text transform="translate(97,268)" font-size="8" style="fill:rgb(68, 57, 131)">leveraged</text>
+<text transform="translate(320,316) rotate(-90)" font-size="8" style="fill:rgb(35, 169, 131)">opportunity</text>
+<text transform="translate(702,351)" font-size="8" style="fill:rgb(34, 167, 133)">maps</text>
+<text transform="translate(16,187)" font-size="8" style="fill:rgb(72, 31, 112)">Two</text>
+<text transform="translate(406,102) rotate(-90)" font-size="8" style="fill:rgb(34, 167, 133)">Tools</text>
+<text transform="translate(182,71) rotate(-90)" font-size="8" style="fill:rgb(244, 230, 30)">multivocal</text>
+<text transform="translate(537,8)" font-size="8" style="fill:rgb(66, 64, 134)">literature</text>
+<text transform="translate(384,150)" font-size="8" style="fill:rgb(43, 117, 142)">Security</text>
+</svg>
